@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "From the Woods";
+  src: url("fonts/FromtheWoods-Regular.woff2") format("woff2"),
+    url("fonts/FromtheWoods-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  background-image: url("img/bg.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  color: white;
+  font-family: sans-serif;
+}
+
+body {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+main {
+  position: relative;
+  margin: 40px 0;
+}
+
+main p {
+  width: 150px;
+  margin: auto;
+  font-size: x-small;
+}
+
+p {
+  line-height: 1.5;
+  font-size: smaller;
+}
+
+h1 {
+  font-family: "From the Woods";
+  font-size: 90px;
+  width: 500px;
+  margin: 60px auto;
+}
+
+div {
+  background-color: #4f6a13;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+}
+
+div:nth-of-type(1) {
+  margin-bottom: 80px;
+}
+
+div:nth-of-type(2) {
+  position: absolute;
+  top: 155px;
+  right: 0px;
+}
+
+img {
+  width: 100px;
+  margin-top: 15px;
+}
+
+h4 {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+footer {
+  padding: 80px;
+  background-color: #2d4823;
+}
